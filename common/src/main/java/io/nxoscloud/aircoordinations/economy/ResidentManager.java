@@ -19,7 +19,10 @@ public class ResidentManager {
 
     public void updateResidents() {
         for (Resident resident : residents.values()) {
-            // Update logic such as work, sleep, etc.
+            // Update logic such as work, sleep, and interactions
+            if (resident.getJob().equals("Worker")) {
+                // Simulate work activity
+            }
         }
     }
 }
