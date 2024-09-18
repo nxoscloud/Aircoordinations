@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "aircoordinations",
+  "version": "${version}",
+
+  "name": "Aircoordinations",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All Rights Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "aircoordinations.mixins.json",
+    "aircoordinations-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": ">=1.19"
+  }
+}
